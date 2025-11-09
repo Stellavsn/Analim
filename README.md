@@ -94,22 +94,11 @@ src/
 
 #### Annulation
 - Suppression de l'inscription
-- 
+
 ## 🔐 Règles de Gestion
 
-1. Une session peut accueillir un nombre limité de congressistes (capacité)
-2. Un congressiste ne peut s'inscrire qu'une seule fois à une session
-3. **Règle critique** : Aucune modification d'inscription n'est autorisée après création de la facture
-4. Les dates de session doivent être cohérentes (début avant fin)
-
-## 🧪 Tests
-
-Pour tester l'application :
-1. Créer plusieurs sessions avec différentes dates
-2. Inscrire des congressistes aux sessions
-3. Tenter une annulation avant création de facture (doit réussir)
-4. Créer une facture pour une inscription
-5. Tenter une annulation après création de facture (doit échouer)
+1. Un congressiste ne peut s'inscrire qu'une seule fois à une session
+2. Les dates de session doivent être cohérentes selon une demie journée + impossibilité qu'il y est deux sessions en même temps
 
 ## 📝 Architecture MVC
 
@@ -133,19 +122,7 @@ Affichage de l'interface utilisateur :
 
 ## 🤝 Contribution
 
-Ce projet a été développé dans un contexte pédagogique/professionnel.
-
-## 👨‍💻 Auteur
-
-[Votre Nom]
-
-## 📄 Licence
-
-[Type de licence]
-
-## 📞 Contact
-
-Pour toute question concernant ce projet, n'hésitez pas à me contacter.
+Ce projet a été développé dans un contexte pédagogique par Stella VISENTIN.
 
 ---
 
